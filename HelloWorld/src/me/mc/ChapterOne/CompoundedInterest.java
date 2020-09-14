@@ -1,4 +1,4 @@
-package me.mc.Hello;
+package me.mc.ChapterOne;
 
 
 import java.util.Scanner;
