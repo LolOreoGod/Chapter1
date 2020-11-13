@@ -10,9 +10,6 @@ package me.mc.Chapter5_11_6;
  * 
  * Function: Reades whether a temperature value means water is liquid, solid, or gaseous. +Custom altitude +Error handling
  * 
- * Methods:
- * 
- * compareTo: 
  *
  * 
  *************************************************/
