@@ -32,7 +32,7 @@ public class VowelPrinter {
 			//Converts it to string
 			String currentString = Character.toString(current);
 			//Condition to check if it is a vowel
-			if(currentString.contains("a") || currentString.contains("e") || currentString.contains("i") || currentString.contains("o") || currentString.contains("u") || currentString.contains("y")) {
+			if(currentString.equalsIgnoreCase("a")|| currentString.equalsIgnoreCase("e") || currentString.equalsIgnoreCase("i") || currentString.equalsIgnoreCase("o") || currentString.equalsIgnoreCase("u") || currentString.equalsIgnoreCase("y")) {
 				vowels++;
 				
 			}
