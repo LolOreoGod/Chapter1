@@ -88,9 +88,11 @@ public class NestedForLoopPractice {
 	for(int i = 0; i < row3; i++) {
 		
 		for(int j = 0; j <= i; j++) {
+			//repeats the same number for j times
 				System.out.print(x1);
 		}
 		
+		//increases number outputted by 1
 		x1++;
 		System.out.println();
 		
@@ -116,10 +118,14 @@ public class NestedForLoopPractice {
     {
         for(int j = 0; j < k; j++)
         {
+        	//Prints number of spaces till max k
             System.out.print(" ");
         }
+        //Decreases number of max spaces
         k--;
+        //prints number
         System.out.print(x2);
+        //increases number printed
         x2++;
         System.out.println();
     }
@@ -147,14 +153,20 @@ public class NestedForLoopPractice {
     {
         for(int j = 0; j < k2; j++)
         {
+        	//prints spaces till max k2
             System.out.print(" ");
         }
+        //decreases max spaces
         k2--;
+        
+        
         for(int j=0; j<=i; j++)
         {
+        	//prints numbers j times until j = i < row5
             System.out.print(x3);
         }
         
+        //increases number printed
         x3++;
         System.out.println();
     }
