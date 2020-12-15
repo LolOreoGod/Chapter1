@@ -58,6 +58,8 @@ class E7_6Tester {
 	public static void main(String[] args) {
 		int[] newArray = new int[9];
 		E7_6 myObj = new E7_6();
+		
+		//Checks if array is reversed
 		System.out.println(myObj.getArray(newArray));
 		System.out.println(myObj.getReverse(newArray));	
 	}
